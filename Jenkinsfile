@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Archit-01/Simple-website-/tree/main'
+                git 'https://github.com/Archit-01/Simple-website-.git'
             }
         }
         stage('Build Docker Image') {
